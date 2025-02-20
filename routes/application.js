@@ -7,7 +7,7 @@ const verifyToken = require("../middleware/verifyToken");
 module.exports = (db) => {
   const applicationCollection = db.collection("applicationCollection");
 
-  // Add university
+  // Add application
   router.post("/add-application", async (req, res) => {
     try {
       const newApplication = req.body;
@@ -15,6 +15,28 @@ module.exports = (db) => {
       res.send(result);
     } catch (error) {
       res.status(500).send({ error: "Failed to add university" });
+    }
+  });
+
+  //get all applications
+  router.get("/get-all-applications", async (req, res) => {
+    try {
+      const applications = await applicationCollection.find({}).toArray();
+      res.send(applications);
+    } catch (error) {
+      res.status(500).send({ error: "Failed to fetch applications" });
+    }
+  });
+
+  //get single application
+  router.get("/get-application/:id", async (req, res) => {
+    try {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const application = await applicationCollection.findOne(query);
+      res.send(application);
+    } catch (error) {
+      res.status(500).send({ error: "Failed to fetch application" });
     }
   });
 
