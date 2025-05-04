@@ -1,24 +1,24 @@
-# Cloud Hostel
+# EduCare
 
 ## Live Site URL
-[Cloud Hostel Live Site](https://cloud-hostel.web.app/)
+[EduCare scholarship Live Site](https://edu-care-e1c6c.web.app/)
 
 ## Admin Username and Password
 - **Username:** admin@gmail.com
-- **Password:** adminM
+- **Password:** Admin!
+- **Moderator:** moderator@gmail.com
+- - **Password:** Moderator!
 
 ## About the Project
-Cloud Hostel is a comprehensive hostel management platform designed to streamline the management of hostels. It offers a range of features to ensure comfort, efficiency, and satisfaction for all users.
+EduCare is a scholarship-related website that enables users to observe all the scholarships available, can add or delete scholarships and apply for scholarships very smoothly.
 
 
 ## Key Features
 
-- **Dashboard:** A user-friendly dashboard for managing hostel activities.
-- **Meal Management:** Add, update, and delete meal details with ease.
-- **Upcoming Meals:** View and manage upcoming meals with the ability to publish based on likes.
-- **Review System:** Users can post reviews and rate meals.
-- **Like System:** Users can like meals, and meals can be published based on the number of likes.
-- **Request System:** Users can request meals, and administrators can manage these requests.
+- **Dashboard:** A user-friendly dashboard for managing scholarships.
+- **Scholarships Management:** Add, update, and delete scholarship details with ease.
+- **Upcoming scholarships:** View and manage upcoming scholarships.
+- **Review System:** Users can post reviews and rate scholarships.
 - **Profile Management:** Users can update their profiles, including their display name and photo.
 - **Notifications:** Receive notifications for important updates and actions.
 - **Responsive Design:** The platform is fully responsive and works seamlessly on all devices.
